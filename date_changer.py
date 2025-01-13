@@ -1,10 +1,9 @@
-username = input("Введите имя пользователя: ")
-title = input("Введите заголовок заметки: ")
-content = input("Введите описание заметки: ")
-status = input("Введите статус заметки: ")
-created_date = input("Введите дату создания заметки в формате 'день.месяц.год': ")
-issue_date = input("Введите дату истечения заметки в формате 'день.месяц.год': ")
-
+username = "Dmitriy Goncharov"
+title = "Grade 1"
+content = "Homework 1"
+status = "Active"
+created_date = "01.01.2025"
+issue_date = "30.01.2025"
 
 print("\nВы ввели следующие данные:")
 print("Имя пользователя:", username)
