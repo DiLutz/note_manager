@@ -1,1 +1,11 @@
+note = []
+titles = input("Введите заголовок: ")
 
+while titles != "stop" and titles != "":
+    note.append(titles)
+    titles = input()
+
+print("Ваши заголовки: ")
+
+for i in range(len(note)):
+    print(note[i])
