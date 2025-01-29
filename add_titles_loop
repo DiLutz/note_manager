@@ -9,3 +9,4 @@ print("Ваши заголовки: ")
 
 for i in range(len(note)):
     print(note[i])
+
